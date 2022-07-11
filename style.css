@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{font-family: 'Poppins', sans-serif;
+text-decoration: none;
+list-style: none;}
+
+body{
+   
+    height: 100%;
+    margin: 10px 80px;
+    background-color: #2F3038; 
+
+}
+.navibar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+}
+.navibar h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(248, 246, 246);  
+    margin-left: -38em; 
+}
+.navibar .link{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-between;
+    
+}
+.navibar .img{
+    margin-top: 70px;
+}
+.navibar a{
+    width: 30%;
+    color: white;}
+/*.navibar .logotitle .logo{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-items:left; 
+    font-size: 2em;
+}
+.navibar .link{  
+    padding: 40px;
+    width: 70%;
+    justify-content: space-between;
+    
+    border: 1px;
+    margin-top: 0%;
+    
+}
+.navibar .link ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+    
+
+
+}
+.navibar .link ul li{    
+    margin: 0 20px;    
+}*/
+.bloc{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.bloc .content{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.bloc .content .left img{
+    height: 538px;
+    width: 400px;
+    
+}
+
+.bloc .content .right {
+
+    color: white;
+    margin-top: 90px;
+    margin-left: 300px;  
+}
+.bloc .content .right p1{
+    
+    font-size: 50px;
+    
+
+}
+.container .btn{
+    margin: 20px;
+    margin-left: 0px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(235, 18, 54);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+
